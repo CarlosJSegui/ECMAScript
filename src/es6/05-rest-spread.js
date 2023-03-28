@@ -14,8 +14,10 @@ console.log(username, age);
 let person = {name: "John", age: 28};
 let country = "MX";
 
-let data = { id:1,...person, country};
+let data = { ...person, country};
 console.log(data);
+let data1 = { id:1,...person, country};
+console.log(data1);
 
 // rest
 
