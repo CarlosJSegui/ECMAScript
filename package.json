@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "git+https://github.com/CarlosJSegui/ECMAScript.git"
   },
   "keywords": [],
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/CarlosJSegui/ECMAScript/issues"
   },
-  "homepage": "https://github.com/CarlosJSegui/ECMAScript#readme"
+  "homepage": "https://github.com/CarlosJSegui/ECMAScript#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
